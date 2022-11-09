@@ -3,3 +3,21 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  div 
+    h2 Routes
+    p
+      strong GET: 
+      /users
+    p
+      strong POST: 
+      /users 
+      strong Body: 
+      span name (string)
+    p
+      strong PUT: 
+      /users/:id 
+      strong Body: 
+      span name (string)
+    p
+      strong DELETE: 
+      /users/:id
